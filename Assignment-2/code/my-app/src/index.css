@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background: darkturquoise;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img{
+    height: 120px;
+}
+.profile{
+    display: inline-grid;
+    border: 5px solid darkblue;
+    padding: 15px;
+    line-height: 0em;
+    margin: 10rem;
+    width: 160px;
+    background: navajowhite;
+    border-radius: 10px;
+    box-shadow: -4px 5px dodgerblue;
+}
+.name{
+    font-size: x-large;
+    opacity: 1.25;
+}
+h4{
+    font-size: x-small;
+    opacity: 0.5;
 }
