@@ -1,0 +1,63 @@
+.yellowblock{
+display: grid;
+width: 100%;
+}
+.yellow{
+display: block;
+background: yellow;
+height:50%;
+width: 98%;
+margin:2%;
+}
+
+@media(min-width: 320px){
+.yellowblock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.yellow{
+    display: block;
+    background: yellow;
+    width: 48%;
+    height: 90%;
+    margin:1.5%;
+}
+}
+
+
+.redblock{
+    display: grid;
+    width: 100%;
+}
+.blueblock{
+    display: grid;
+    width: 100%;
+}
+
+.red{
+    display: block;
+    background: red;
+    height: 96%;
+    margin:2%;
+}
+.blue{
+    background:blue;
+    display: block;
+    height: 80%;
+    margin:2%;
+}
+@media only screen and (max-width: 789px){
+    .blueblock{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+}
+.blue{
+    background:blue;
+    display: block;
+    width: 30%;
+    margin:2%;
+    height: 80%;
+}
+}
